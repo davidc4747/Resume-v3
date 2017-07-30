@@ -1,0 +1,12 @@
+{
+  "name": "resume-v3",
+  "version": "3.0.0",
+  "description": "David Chung's resume",
+  "main": "index.js",
+  "scripts": {
+    "start": ""
+  },
+  "keywords": [],
+  "author": "David G Chung",
+  "license": "ISC"
+}
