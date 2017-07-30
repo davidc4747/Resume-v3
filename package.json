@@ -2,11 +2,22 @@
   "name": "resume-v3",
   "version": "3.0.0",
   "description": "David Chung's resume",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
-    "start": ""
+    "start": "webpack-dev-server --inline",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "David G Chung",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "css-loader": "^0.28.4",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-loader": "^2.0.6",
+    "precss": "^2.0.0",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1"
+  }
 }
