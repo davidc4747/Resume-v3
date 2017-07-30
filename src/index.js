@@ -1,2 +1,2 @@
 
-import './css/resume.css';
+import './css/styles.css';
