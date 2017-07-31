@@ -7,7 +7,16 @@
 }
 
 .btn--print {
-    padding: 0.9rem;
-    background-color: $hightlight;
+
+    display: block;
+
+    margin: 0 0 2rem;
+    padding: 0.8rem;
+    
+    background-color: $highlight;
     color: $white;
+
+    @media print {
+        display: none;
+    }
 } 
