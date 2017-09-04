@@ -12,11 +12,12 @@
 
     margin: 0 0 2rem;
     padding: 0.8rem;
-    
+    border-bottom: 3px solid #D3D3D3;
+
     background-color: $highlight;
     color: $white;
 
     @media print {
         display: none;
     }
-} 
+}

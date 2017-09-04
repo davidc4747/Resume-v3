@@ -8,3 +8,9 @@
 @import "base";
 @import "form";
 @import "print";
+
+
+
+@import "resume-sections/skill-soft.css";
+@import "resume-sections/work-exp.css";
+@import "resume-sections/prog-exp.css";

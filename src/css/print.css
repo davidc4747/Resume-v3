@@ -3,15 +3,44 @@
     padding: 0.8rem;
 }
 
+.resume-section {
+    padding: 0 3rem;
+}
+
+
+
+
+
+
+/*=======================*\
+    #Header
+\*=======================*/
+
 .header {
-    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+    padding: 0.5rem;
+    margin: 0 auto;
+    margin-bottom: -3.0rem;
+
+    width: 98%;
+
+    &:after {
+        content: '';
+        display: block;
+
+        background-color: $grey;
+    }
 }
 
 .headshot {
     float: left;
-    padding-right: 0.6rem;
 
-    width: 30%;
+    margin-right: 0.6rem;
+
+    width: 130px;
+    border-radius: 3px;
 }
 
 
@@ -20,13 +49,13 @@
 \*=======================*/
 
 .intro {
-
     float: left;
+    padding-left: 0.6rem;
     width: 70%;
-
 
     &__name {
         margin: 0;
+        margin-top: 0.7rem;
         color: $highlight;
 
         font-size: 3rem;
@@ -39,6 +68,47 @@
         font-weight: normal;
         font-style: italic;
     }
+
+}
+
+
+
+
+
+/*=======================*\
+    #Contact
+\*=======================*/
+
+.contact-me {
+    float: left;
+    width: 100%;
+    padding: 0 1%;
+    // border-top: 2px solid $highlight;
+
+    background-color: $grey;
+
+
+
+    &__header {
+    }
+
+
+    &__list {
+        display: flex;
+
+        padding: 0.9rem 0;
+        margin: 0;
+        margin-left: 110px;
+
+        list-style-type: none;
+    }
+
+    &__item {
+        flex: 1;
+        text-align: center;
+        // border: 1px solid purple;
+    }
+
 
 }
 
@@ -64,27 +134,9 @@
 
 
 /*=======================*\
-    #Contact
-\*=======================*/
-
-.contact-me {
-
-    float: left;
-    width: 70%;
-
-    &__header {
-        color: $highlight;
-    }
-}
-
-
-
-
-
-/*=======================*\
     #Print media
 \*=======================*/
 
 @media print {
-
+    * {-webkit-print-color-adjust: exact;}
 }
