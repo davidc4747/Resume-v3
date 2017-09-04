@@ -12,16 +12,26 @@
     \*-------------------------*/
 
     &__header {
+        font-weight: bold;
+        font-size: 1.2rem;
     }
         &__title {
         }
         &__sub-title {
         }
+        &__date {
+            display: inline-block;
+            margin-left: 0.4rem;
+
+            font-size: 0.9rem;
+            font-style: italic;
+            font-weight: normal;
+        }
 
 
-    &__date {
-    }
 
-
+        & + & {
+            margin-top: 1rem;
+        }
 
 }

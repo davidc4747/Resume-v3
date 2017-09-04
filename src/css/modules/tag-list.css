@@ -3,15 +3,18 @@
     #Tag list
 \*==========================*/
 
-.tag-list-title {
-    margin-bottom: 0.8rem;
-}
-
 .tag-list {
-    margin: 0;
-    padding: 0;
-    text-align: justify;
-    list-style-type: none;
+
+    &__title {
+        margin-bottom: 0.8rem;
+    }
+
+    &__group {
+        margin: 0;
+        padding: 0;
+        text-align: justify;
+        list-style-type: none;
+    }
 
     &__item {
         display: inline-block;
@@ -34,5 +37,29 @@
 \*------------------------*/
 
 .tag-list--inline {
+    display: flex;
+    align-items: center;
+    margin: 0.3rem 0;
+}
+
+
+.tag-list--inline > .tag-list {
+
+    &__title {
+        display: inline-block;
+
+        padding: 0.34rem 0;
+        margin: 0;
+
+        font-weight: bold;
+        font-size: 0.9rem;
+        color: $highlight;
+    }
+
+    &__group {
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
 
 }

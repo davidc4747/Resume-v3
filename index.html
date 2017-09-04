@@ -28,9 +28,9 @@
 
 
         <section class="skill-soft">
-            <div class="skills">
-                <div class="title tag-list-title">Skills:</div>
-                <ul class="tag-list">
+            <div class="skills tag-list">
+                <div class="title tag-list__title">Skills:</div>
+                <ul class="tag-list__group">
                     <li class="tag-list__item">HTML5</li>
                     <li class="tag-list__item">CSS3</li>
                     <li class="tag-list__item">Sass</li>
@@ -41,6 +41,7 @@
                     <li class="tag-list__item">AngularJS</li>
                     <li class="tag-list__item">React</li>
                     <li class="tag-list__item">knockout.js</li>
+                    <li class="tag-list__item">node.js</li>
                     <li class="tag-list__item">jQuery</li>
                     <li class="tag-list__item">D3.js</li>
 
@@ -57,16 +58,16 @@
 
                 </ul>
             </div>
-            <div class="software">
-                <div class="title tag-list-title">Software:</div>
-                <ul class="tag-list">
+            <div class="software tag-list">
+                <div class="title tag-list__title">Software:</div>
+                <ul class="tag-list__group">
                     <li class="tag-list__item">WAMP</li>
                     <li class="tag-list__item">MySQL Workbench</li>
                     <li class="tag-list__item">Visual Studio</li>
-                    <li class="tag-list__item">Visual Studio Code</li>
+                    <li class="tag-list__item">VS Code</li>
                     <li class="tag-list__item">Pencil Project</li>
 
-                    <li class="tag-list__item">NPM</li>
+                    <li class="tag-list__item">npm</li>
                     <li class="tag-list__item">Webpack</li>
                     <li class="tag-list__item">Grunt</li>
                     <li class="tag-list__item">Git</li>
@@ -75,6 +76,7 @@
                     <li class="tag-list__item">JIRA</li>
                     <li class="tag-list__item">BitBucket</li>
                     <li class="tag-list__item">Confluence</li>
+                    <li class="tag-list__item">SQL Server Management Studio</li>
 
                 </ul></div>
         </section>
@@ -108,30 +110,32 @@
 
 
         <section class="resume-section work-exp">
-            <h3 class="title work-exp__header"><i class="work-exp__icon fa fa-briefcase"></i>Work Experience</h3>
+            <h3 class="title work-exp__header"><i class="title__icon fa fa-briefcase"></i>Work Experience</h3>
             <ul class="work-exp__list">
 
 
 
 
                 <li class="work-exp__item project">
-                    <h4 class="project__header"> <span class="project__title">PDHI</span> – <span class="project__sub-title">Full-Stack Developer</span></h4>
-                    <div class="project__date">June 2016 - September 2017</div>
+                    <h4 class="project__header">
+                        <span class="project__title">PDHI</span> – <span class="project__sub-title">Full-Stack Developer</span>
+                        <span class="project__date">June 2016 - September 2017</span>
+                    </h4>
                     <ul>
-                        <li class="tag-list--inline">
+                        <li class="tag-list tag-list--inline">
 
-                            <div class="tag-list-title">Skills:</div>
-                            <ul class="tag-list">
+                            <div class="tag-list__title">Skills:</div>
+                            <ul class="tag-list__group">
                                 <li class="tag-list__item">HTML5</li>
-                                <li class="tag-list__item">CSS#</li>
+                                <li class="tag-list__item">CSS3</li>
                                 <li class="tag-list__item">Less</li>
                                 <li class="tag-list__item">Bootstrap</li>
 
                                 <li class="tag-list__item">JavaScript</li>
                                 <li class="tag-list__item">knockout.js</li>
                                 <li class="tag-list__item">jQuery</li>
-                                <li class="tag-list__item">AJAX</li>
                                 <li class="tag-list__item">D3.js</li>
+                                <li class="tag-list__item">node.js</li>
 
                                 <li class="tag-list__item">Restfull API</li>
 
@@ -142,7 +146,21 @@
                             </ul>
 
                         </li>
-                        <li>Software: Visual Studio 2015, Visual Studio Code</li>
+                        <li class="tag-list tag-list--inline">
+
+                            <div class="tag-list__title">Software:</div>
+                            <ul class="tag-list__group">
+                                <li class="tag-list__item">Git</li>
+                                <li class="tag-list__item">npm</li>
+                                <li class="tag-list__item">JIRA</li>
+                                <li class="tag-list__item">BitBucket</li>
+                                <li class="tag-list__item">Confluence</li>
+                                <li class="tag-list__item">Visual Studio</li>
+                                <li class="tag-list__item">VS Code</li>
+                                <li class="tag-list__item">SSMS</li>
+                            </ul>
+
+                        </li>
                         <li>Worked on the full website</li>
                         <li>Lead a team of 5</li>
                         <li>Taught people knockoutjs, requirejs</li>
@@ -176,7 +194,10 @@
         </section>
 
 
+        <section class="resume-section prog-exp">
+            <h3 class="title prog-exp__header"><i class="title__icon fa fa-code"></i>Programming Experience</h3>
 
+        </section>
 
 
         <script src="./public/bundle.js"></script>
