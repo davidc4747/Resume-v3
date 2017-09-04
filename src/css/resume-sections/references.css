@@ -1,0 +1,50 @@
+
+/*=======================*\
+    #References
+\*=======================*/
+
+.references {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 0;
+
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.ref {
+    flex: 1;
+    margin: 0rem 0.3rem;
+    padding: 0.8rem;
+    // border: 1px solid $highlight;
+
+    width: 50%;
+    text-align: center;
+    background-color: $grey;
+
+
+    &__name {
+        color: $highlight;
+        font-weight: bold;
+    }
+
+    &__company {
+        font-weight: bold;
+    }
+
+    &__title {
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    &__phone {}
+    &__email {}
+
+
+
+    &:nth-child(2n) + & {
+        clear: both;
+    }
+
+}
