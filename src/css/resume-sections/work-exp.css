@@ -10,16 +10,6 @@
         padding: 0.3rem 0.5rem;
     }
 
-    &__header {
-        /* padding-bottom: 0.2rem;
-        border-bottom: 1px  solid $grey;
-
-        text-align: center;
-        font-size: 1.5rem;
-        font-weight: bold;
-        color: $highlight; */
-    }
-
 
 
     /*-------------------------*\
@@ -32,35 +22,6 @@
 
     &__item {
     }
-
-
-}
-
-
-
-/*=======================*\
-    #Project
-\*=======================*/
-
-.project {
-
-
-
-    /*-------------------------*\
-        #Header
-    \*-------------------------*/
-
-    &__header {
-    }
-        &__title {
-        }
-        &__sub-title {
-        }
-
-
-    &__date {
-    }
-
 
 
 }

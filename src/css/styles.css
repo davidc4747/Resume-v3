@@ -1,5 +1,4 @@
 
-
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('http://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css');
 
@@ -11,8 +10,15 @@
 
 
 
+/* Resume Section */
 @import "resume-sections/header.css";
 @import "resume-sections/profile.css";/* NOTE: not in use */
 @import "resume-sections/skill-soft.css";
 @import "resume-sections/work-exp.css";
 @import "resume-sections/prog-exp.css";
+
+
+
+/* Modules */
+@import "modules/project.css";
+@import "modules/tag-list.css";

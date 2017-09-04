@@ -12,14 +12,11 @@
     border-bottom: 1px solid $grey;
 
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: bold;
     color: $highlight;
 }
 
-.tag-list-title {
-    margin-bottom: 0.8rem;
-}
 
 /*=======================*\
     #Print media
