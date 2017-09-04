@@ -3,8 +3,11 @@
     #Project
 \*=======================*/
 
-.project {
+.project-list {
+    padding: 0 1rem;
+}
 
+.project {
 
 
     /*-------------------------*\
@@ -35,3 +38,8 @@
         }
 
 }
+
+
+
+.project--work-exp {}
+.project--prog-exp {}

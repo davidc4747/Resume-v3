@@ -5,6 +5,8 @@
 
 .work-exp {
 
+    margin-top: 2rem;
+
     &__header {
     }
 
@@ -13,7 +15,6 @@
     \*-------------------------*/
 
     &__list {
-        list-style-type: none;
     }
 
     &__item {
