@@ -1,0 +1,92 @@
+
+/*=======================*\
+    #Header
+\*=======================*/
+
+.header {
+    overflow: hidden;
+}
+
+.header-intro {
+    overflow: hidden;
+    position: relative;
+
+    padding: 0.5rem;
+    margin: 0 auto;
+    margin-bottom: -3.0rem;
+
+    width: 98%;
+}
+
+.headshot {
+    float: left;
+
+    margin-right: 0.6rem;
+
+    width: 130px;
+    border-radius: 3px;
+}
+
+
+    /*-----------------------*\
+        #Intro
+    \*-----------------------*/
+
+    .intro {
+        float: left;
+        padding-left: 0.6rem;
+        width: 70%;
+
+        &__name {
+            margin: 0;
+            margin-top: 0.7rem;
+            color: $highlight;
+
+            font-size: 3rem;
+        }
+
+        &__title {
+            margin: 0;
+
+            font-size: 2rem;
+            font-weight: normal;
+            font-style: italic;
+        }
+
+    }
+
+
+
+
+
+/*=======================*\
+    #Contact
+\*=======================*/
+
+.contact-me {
+    float: left;
+    width: 100%;
+    padding: 0 1%;
+    // border-top: 2px solid $highlight;
+
+    background-color: $grey;
+
+    &__list {
+        display: flex;
+
+        padding: 0.9rem 0;
+        margin: 0;
+        margin-left: 110px;
+
+        list-style-type: none;
+    }
+
+    &__item {
+        flex: 1;
+        text-align: center;
+        // border: 1px solid purple;
+    }
+
+
+}
+

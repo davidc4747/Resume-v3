@@ -11,6 +11,8 @@
 
 
 
+@import "resume-sections/header.css";
+@import "resume-sections/profile.css";/* NOTE: not in use */
 @import "resume-sections/skill-soft.css";
 @import "resume-sections/work-exp.css";
 @import "resume-sections/prog-exp.css";
