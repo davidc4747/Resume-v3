@@ -15,6 +15,11 @@
     font-size: 1.6rem;
     font-weight: bold;
     color: $highlight;
+
+    &__icon {
+        padding: 0.3rem 0.5rem;
+    }
+
 }
 
 

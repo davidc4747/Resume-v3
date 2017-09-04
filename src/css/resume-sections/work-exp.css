@@ -5,12 +5,8 @@
 
 .work-exp {
 
-
-    &__icon {
-        padding: 0.3rem 0.5rem;
+    &__header {
     }
-
-
 
     /*-------------------------*\
         #Work Experience list
