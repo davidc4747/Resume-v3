@@ -8,33 +8,15 @@ html {
 }
 
 
-.sidebar {
-    float: left;
-
-    padding: 0.6rem;
-    margin: 0.5rem 0;
-    border-right: 1px solid $grey;
-    width: 32%;
-
-    &__title {
-
-    }
-}
-
-.content {
-    float: left;
-    padding: 0.6rem;
-    margin: 0.5rem 0;
-    width: 66%;
-}
-
 
 .list-unstyled {
     list-style-type: none;
 }
 
-.resume-section {
-    // padding: 0 2rem;
+.content-section {
+    margin: 0 auto;
+    margin-top: 1.4rem;
+    width: 75%;
 }
 
 .title {

@@ -10,6 +10,12 @@
 
 
 
+/* Modules */
+@import "modules/project.css";
+@import "modules/tag-list.css";
+
+
+
 /* Resume Section */
 @import "resume-sections/header.css";
 @import "resume-sections/profile.css";/* NOTE: not in use */
@@ -18,9 +24,3 @@
 @import "resume-sections/prog-exp.css";
 @import "resume-sections/edu.css";
 @import "resume-sections/references.css";
-
-
-
-/* Modules */
-@import "modules/project.css";
-@import "modules/tag-list.css";
