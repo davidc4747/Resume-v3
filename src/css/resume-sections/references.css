@@ -4,24 +4,25 @@
 \*=======================*/
 
 .references {
-    display: flex;
-    flex-wrap: wrap;
+    // display: flex;
+    // flex-wrap: wrap;
 
+    margin: 0;
     padding: 0;
 
-    justify-content: space-between;
+    // justify-content: space-between;
     list-style-type: none;
 }
 
 .ref {
     flex: 1;
-    margin: 0rem 0.3rem;
+    // margin: 0rem 0.3rem;
+    margin: 0;
     padding: 0.8rem;
-    // border: 1px solid $highlight;
 
-    width: 50%;
-    text-align: center;
-    background-color: $grey;
+    width: 100%;
+    // text-align: center;
+    // background-color: $grey;
 
 
     &__name {
@@ -42,9 +43,9 @@
     &__email {}
 
 
-
-    &:nth-child(2n) + & {
-        clear: both;
+    & + & {
+        border-top: 1px solid $grey;
     }
+
 
 }
