@@ -11,9 +11,7 @@
     &__headshot {
         position: absolute;
         top: 0;
-        // left: 1.5%;
 
-        // width: 10%;
         border-radius: 3px;
     }
 
@@ -55,13 +53,10 @@
     background-color: $grey;
 
     &__list {
-        // display: flex;
         overflow: hidden;
-
 
         padding: 0.9rem 0;
         margin: 0;
-        margin-left: 145px;
 
         list-style-type: none;
     }
@@ -87,13 +82,19 @@
 
 
 
-
 /* Image & Header Positioning */
-.header__headshot {
-    left: 3.5%;
-    width: 17%;
+
+:root {
+  --left: 1.857rem;
+  --width: 10rem;
 }
+
+.header__headshot {
+    left: var(--left);
+    width: var(--width);
+}
+
 .header__name,
 .contact-me__list {
-    margin-left: 21%;
+    margin-left: calc(var(--left) + var(--width));
 }
