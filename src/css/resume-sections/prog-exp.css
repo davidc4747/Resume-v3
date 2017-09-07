@@ -8,5 +8,5 @@
 
 /* Push one of the projects to the next page */
 .prog-exp__item:nth-child(2) {
-    margin-top: 20rem;
+    // margin-top: 20rem;
 }
