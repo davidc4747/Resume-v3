@@ -4,56 +4,37 @@
 \*=======================*/
 
 .header {
-    overflow: hidden;
+    position: relative;
+    padding: 1rem 0;
+
+
+    &__headshot {
+        position: absolute;
+        top: 0;
+        // left: 1.5%;
+
+        // width: 10%;
+        border-radius: 3px;
+    }
+
+    &__name {
+        color: $highlight;
+
+        text-align: left;
+
+        font-size: 3.5rem;
+    }
+
 }
 
 .header-intro {
     overflow: hidden;
-    position: relative;
 
-    padding: 0.5rem;
+    padding: 0rem;
     margin: 0 auto;
-    margin-bottom: -3.0rem;
 
     width: 98%;
 }
-
-.headshot {
-    float: left;
-
-    margin-right: 0.6rem;
-
-    width: 130px;
-    border-radius: 3px;
-}
-
-
-    /*-----------------------*\
-        #Intro
-    \*-----------------------*/
-
-    .intro {
-        float: left;
-        padding-left: 0.6rem;
-        width: 70%;
-
-        &__name {
-            margin: 0;
-            margin-top: 0.7rem;
-            color: $highlight;
-
-            font-size: 3rem;
-        }
-
-        &__title {
-            margin: 0;
-
-            font-size: 2rem;
-            font-weight: normal;
-            font-style: italic;
-        }
-
-    }
 
 
 
@@ -64,29 +45,55 @@
 \*=======================*/
 
 .contact-me {
-    float: left;
+
+    position: relative;
+    z-index: -10;
+
     width: 100%;
     padding: 0 1%;
-    // border-top: 2px solid $highlight;
 
     background-color: $grey;
 
     &__list {
-        display: flex;
+        // display: flex;
+        overflow: hidden;
+
 
         padding: 0.9rem 0;
         margin: 0;
-        margin-left: 110px;
+        margin-left: 145px;
 
         list-style-type: none;
     }
 
     &__item {
-        flex: 1;
-        text-align: center;
-        // border: 1px solid purple;
+        // flex: 1;
+        float: left;
+        text-align: left;
+
+
+        & + & {
+            padding-left: 4rem;
+        }
+    }
+
+    &__icon {
+        padding: 0.3rem 0.5rem;
     }
 
 
 }
 
+
+
+
+
+/* Image & Header Positioning */
+.header__headshot {
+    left: 3.5%;
+    width: 17%;
+}
+.header__name,
+.contact-me__list {
+    margin-left: 21%;
+}
