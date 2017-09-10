@@ -1,0 +1,27 @@
+
+/*=======================*\
+    #Find Me
+\*=======================*/
+
+.find-me {
+    &__list {
+        padding: 0;
+        list-style-type: none;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        padding: 0 0.8rem;
+    }
+
+
+    &__icon {
+        padding: 0.4rem;
+        font-size: 1.6rem;
+    }
+    &__link {
+        color: #000;
+    }
+
+
+}

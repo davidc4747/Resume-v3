@@ -15,7 +15,11 @@ html {
     border-right: 1px solid $grey;
     width: 30%;
 
-    &__title{
+    &__section + &__section {
+        margin-top: 1rem;
+    }
+
+    &__title {
         padding-bottom: 0.2rem;
         border-bottom: 1px solid $grey;
         font-size: 1.6rem;
@@ -53,6 +57,10 @@ html {
         padding: 0.3rem 0.5rem;
     }
 
+}
+
+.icon {
+    padding: 0.3rem 0.5rem;
 }
 
 
