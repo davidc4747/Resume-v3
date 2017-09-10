@@ -8,7 +8,6 @@
 }
 
 .project {
-    // margin: 2.0rem 0;
 
     /*-------------------------*\
         #Header
@@ -42,8 +41,3 @@
         }
 
 }
-
-
-
-.project--work-exp {}
-.project--prog-exp {}

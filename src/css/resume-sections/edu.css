@@ -2,7 +2,7 @@
 /*=======================*\
     #Foot Grouping
 \*=======================*/
-
+/*
 .edu-ref {
     margin: 0 auto;
     width: 92%;
@@ -22,12 +22,16 @@
     margin-left: -1px;
     width: 30%;
 }
-
+*/
 
 
 /*=======================*\
     #Education
 \*=======================*/
+
+.edu-list {
+    padding: 0;
+}
 
 .edu {
     margin: 0.3rem;
@@ -35,7 +39,7 @@
 
     &__header {
         font-weight: bold;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
         &__title {

@@ -1,22 +1,45 @@
-/*
-.container {
-    padding: 0.8rem;
-}
-*/
+
 html {
     font-size: 12px;
 }
 
+
+.sidebar,
+.content {
+    float: left;
+    margin-top: 1rem;
+    padding: 0 0.8rem;
+}
+
+.sidebar {
+    border-right: 1px solid $grey;
+    width: 30%;
+
+    &__title{
+        padding-bottom: 0.2rem;
+        border-bottom: 1px solid $grey;
+        font-size: 1.6rem;
+        font-weight: normal;
+    }
+}
+.content {
+    border-left: 1px solid $grey;
+    margin-left: -1px;
+    width: 70%;
+}
+
+
+
 .list-unstyled {
     list-style-type: none;
 }
-
+/*
 .content-section {
     margin: 0 auto;
     margin-top: 1.3rem;
     width: 75%;
 }
-
+*/
 .title {
     padding-bottom: 0.2rem;
     border-bottom: 1px solid $grey;

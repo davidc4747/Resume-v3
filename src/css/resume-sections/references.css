@@ -4,39 +4,33 @@
 \*=======================*/
 
 .references {
-    // display: flex;
-    // flex-wrap: wrap;
-
     margin: 0;
     padding: 0;
 
-    // justify-content: space-between;
     list-style-type: none;
 }
 
 .ref {
-    flex: 1;
-    // margin: 0rem 0.3rem;
     margin: 0;
     padding: 0.8rem;
 
     width: 100%;
-    // text-align: center;
-    // background-color: $grey;
 
 
     &__name {
-        color: $highlight;
+        // color: $highlight;
         font-weight: bold;
+        // font-size: 1.2rem;
     }
 
     &__company {
-        font-weight: bold;
+        // font-weight: bold;
+        font-style: italic;
     }
 
     &__title {
-        font-weight: bold;
-        font-style: italic;
+        font-weight: normal;
+        // font-style: italic;
     }
 
     &__phone {}
