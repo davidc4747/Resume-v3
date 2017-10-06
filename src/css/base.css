@@ -44,3 +44,11 @@ h6 {
 .list-unstyled {
     list-style-type: none;
 }
+
+.highlight {
+    color: $highlight;
+}
+
+.icon {
+    padding: 0.3rem 0.5rem;
+}
