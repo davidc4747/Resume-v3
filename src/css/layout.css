@@ -1,8 +1,7 @@
 
-html {
-    font-size: 13px;
-}
-
+/*=======================*\
+    #Sidebar + Content
+\*=======================*/
 
 .sidebar,
 .content {
@@ -34,16 +33,12 @@ html {
 
 
 
-.list-unstyled {
-    list-style-type: none;
-}
-/*
-.content-section {
-    margin: 0 auto;
-    margin-top: 1.3rem;
-    width: 75%;
-}
-*/
+
+
+/*=======================*\
+    #Title + Icon
+\*=======================*/
+
 .title {
     padding-bottom: 0.2rem;
     border-bottom: 1px solid $grey;
@@ -52,22 +47,8 @@ html {
     font-size: 1.6rem;
     font-weight: bold;
     color: $highlight;
-
-    &__icon {
-        padding: 0.3rem 0.5rem;
-    }
-
 }
 
 .icon {
     padding: 0.3rem 0.5rem;
-}
-
-
-/*=======================*\
-    #Print media
-\*=======================*/
-
-@media print {
-    * {-webkit-print-color-adjust: exact;}
 }
