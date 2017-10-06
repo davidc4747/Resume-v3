@@ -31,13 +31,42 @@
         }
 
 
-        & .tag-list {
-            margin-left: -1.5rem;
-        }
-
-
         & + & {
             margin-top: 1rem;
         }
 
+
+
+
+    /*-------------------------*\
+        #Tags
+    \*-------------------------*/
+
+    &__tag-group {
+    }
+
+    &__highlight,
+    &__tag-title {
+        display: inline;
+        color: $highlight;
+        font-size: 1.1rem;
+    }
+    &__tag-list {
+        display: inline;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+    &__tag {
+        display: inline;
+
+
+        &:after {
+            content: ',';
+        }
+
+        & + &:before {
+            // content: '';
+        }
+    }
 }
