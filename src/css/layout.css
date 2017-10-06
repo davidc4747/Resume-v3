@@ -29,6 +29,19 @@
     border-left: 1px solid $grey;
     margin-left: -1px;
     width: 70%;
+
+    &__section {
+    }
+
+    &__title {
+        padding-bottom: 0.2rem;
+        border-bottom: 1px solid $grey;
+
+        text-align: center;
+        font-size: 1.6rem;
+        font-weight: bold;
+        color: $highlight;
+    }
 }
 
 
@@ -36,18 +49,8 @@
 
 
 /*=======================*\
-    #Title + Icon
+    #Icon
 \*=======================*/
-
-.title {
-    padding-bottom: 0.2rem;
-    border-bottom: 1px solid $grey;
-
-    text-align: center;
-    font-size: 1.6rem;
-    font-weight: bold;
-    color: $highlight;
-}
 
 .icon {
     padding: 0.3rem 0.5rem;
