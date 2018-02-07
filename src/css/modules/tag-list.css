@@ -4,62 +4,18 @@
 \*==========================*/
 
 .tag-list {
-
-    &__title {
-        margin-bottom: 0.8rem;
-    }
-
-    &__group {
-        margin: 0;
-        padding: 0;
-        text-align: justify;
-        list-style-type: none;
-    }
-
-    &__item {
-        display: inline-block;
-
-        padding: 0.3rem 0.5rem;
-        margin: 0.2rem 0.1rem;
-
-        font-size: 0.7rem;
-        text-align: center;
-        background-color: $grey;
-        border-radius: 4px;
-    }
+    margin: 0;
+    padding: 0;
 }
 
+.tag {
+    display: inline-block;
 
+    padding: 0.3rem 0.5rem;
+    margin: 0.2rem 0.1rem;
 
-
-/*------------------------*\
-    #Tag list Inline
-\*------------------------*/
-
-.tag-list--inline {
-    display: flex;
-    align-items: center;
-    margin: 0.3rem 0;
-}
-
-
-.tag-list--inline > .tag-list {
-
-    &__title {
-        display: inline-block;
-
-        padding: 0.34rem 0.2rem;
-        margin: 0;
-
-        font-weight: bold;
-        font-size: 0.9rem;
-        color: $highlight;
-    }
-
-    &__group {
-        margin: 0;
-        padding: 0;
-        text-align: left;
-    }
-
+    font-size: 0.7rem;
+    text-align: center;
+    background-color: $grey;
+    border-radius: 4px;
 }
